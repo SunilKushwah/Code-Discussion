@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/welcome_back_msg_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/side_margin_content_card_view"
+    android:layout_marginRight="@dimen/side_margin_content_card_view"
+    android:orientation="vertical"
+    android:background="@drawable/welcome_back_layout_border">
+    <TextView
+        android:id="@+id/welcome_back_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/side_margin_common_for_inner_card_view"
+        android:layout_marginRight="@dimen/side_margin_common_for_inner_card_view"
+        android:layout_marginTop="@dimen/top_margin_welcome_back_text"
+        android:layout_marginBottom="@dimen/bottom_margin_welcome_back_text"
+        android:text="Welcome Back!"
+        android:textSize="@dimen/font_size_medium_18sp"
+        android:textAlignment="center"
+        android:textColor="@color/CyanBlueColor"
+        fontPath="HVD Fonts - BrandonText-Light.otf"/>
+    <TextView
+        android:id="@+id/current_step_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/side_margin_common_for_inner_card_view"
+        android:layout_marginRight="@dimen/side_margin_common_for_inner_card_view"
+        android:layout_marginBottom="@dimen/bottom_margin_current_step_text"
+        android:text="You're currently on step 1 of 5 in the account set up process. Only 4 more to go!"
+        android:textSize="@dimen/font_size_medium_18sp"
+        android:textAlignment="textStart"
+        android:textColor="@color/DavyGray"
+        fontPath="HVD Fonts - BrandonText-Light.otf"/>
+
+</LinearLayout>

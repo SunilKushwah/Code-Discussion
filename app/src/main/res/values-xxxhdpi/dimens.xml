@@ -1,0 +1,9 @@
+<resources>
+<dimen name="y_axis">26.7dp</dimen>
+<dimen name="x_axis">23.3dp</dimen>
+
+<dimen name="long_blue_line_width">66.7dp</dimen>
+<dimen name="short_blue_line_width">50.0dp</dimen>
+<dimen name="side_margin_card_view">20.0dp</dimen>
+
+</resources>

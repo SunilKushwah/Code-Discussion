@@ -1,0 +1,7 @@
+<resources>
+<dimen name="side_margin_card_view">12dp</dimen>
+<dimen name="short_blue_line_width">30dp</dimen>
+<dimen name="long_blue_line_width">40dp</dimen>
+<dimen name="x_axis">14dp</dimen>
+<dimen name="y_axis">16dp</dimen>
+</resources>

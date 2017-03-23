@@ -1,0 +1,57 @@
+<resources>
+    <dimen name="y_axis">8.9dp</dimen>
+    <dimen name="x_axis">7.8dp</dimen>
+    <dimen name="long_blue_line_width">22.2dp</dimen>
+    <dimen name="short_blue_line_width">16.7dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Create Account page dimen -->
+    <dimen name="height_game_bar">66dp</dimen>
+    <dimen name="height_toolbar_bar">44dp</dimen>
+    <dimen name="top_margin_wizard_bar">12.5dp</dimen>
+    <dimen name="bottom_margin_wizard_bar">14dp</dimen>
+    <dimen name="top_margin_content_card_view">12dp</dimen>
+    <dimen name="side_margin_content_card_view">10.2dp</dimen>
+    <dimen name="bottom_margin_content_card_view">19dp</dimen>
+    <dimen name="height_input_row">46dp</dimen>
+    <dimen name="side_margin_input_row">11.79dp</dimen>
+    <dimen name="height_wizard_icon_active">42.5dp</dimen>
+    <dimen name="height_wizard_icon_inactive">28.9dp</dimen>
+    <dimen name="width_wizard_icon_active">42.25dp</dimen>
+    <dimen name="width_wizard_icon_inactive">28.9dp</dimen>
+    <dimen name="height_input_icon">18dp</dimen>
+    <dimen name="width_input_icon">18dp</dimen>
+    <dimen name="right_margin_input_icon">15dp</dimen>
+    <dimen name="left_margin_input_icon">10dp</dimen>
+    <dimen name="width_submit_button">107.1dp</dimen>
+    <dimen name="height_submit_button">42.5dp</dimen>
+    <dimen name="top_margin_submit_button">26dp</dimen>
+    <dimen name="bottom_margin_submit_button">26dp</dimen>
+    <dimen name="height_row_divider">1.5dp</dimen>
+    <dimen name="side_margin_common_for_inner_card_view">11.793dp</dimen>
+    <dimen name="width_long_wizard_line">34.85dp</dimen>
+    <dimen name="width_short_wizard_line">28.05dp</dimen>
+    <dimen name="height_wizard_line">3dp</dimen>
+    <dimen name="height_onboarding_icon">52dp</dimen>
+    <dimen name="width_onboarding_icon">52dp</dimen>
+    <dimen name="top_margin_onboarding_icon">16dp</dimen>
+    <dimen name="bottom_margin_onboarding_icon">12dp</dimen>
+    <dimen name="bottom_margin_title_text">20dp</dimen>
+    <dimen name="bottom_margin_description_text">18dp</dimen>
+    <dimen name="bottom_margin_declaration_text">18dp</dimen>
+    <dimen name="top_margin_declaration_text">20dp</dimen>
+
+   
+
+    <dimen name="font_size_tool_bar">20sp</dimen>
+    <dimen name="font_size_medium_28sp">28sp</dimen>
+    <dimen name="font_size_medium_30sp">30sp</dimen>
+    <dimen name="font_size_medium_20sp">20sp</dimen>
+    <dimen name="font_size_medium_18sp">18sp</dimen>
+    <dimen name="font_size_wizard_text">14sp</dimen>
+    <dimen name="font_size_small_14sp">14sp</dimen>
+    <dimen name="font_size_small_16sp">16sp</dimen>
+
+</resources>

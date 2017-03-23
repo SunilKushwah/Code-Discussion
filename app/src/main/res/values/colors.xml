@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#38A4DD</color>
+    <color name="Primary">#38A4DD</color>
+    <color name="colorPrimaryDark">#0b2d3f</color>
+    <color name="PrimaryDark">#0b2d3f</color>
+    <color name="Accent">#FF4081</color>
+    <color name="Black">#000000</color>
+    <color name="DimGray">#666666</color>
+    <color name="DavyGray">#555655</color>
+    <color name="DavyGray1">#545354</color>
+    <color name="PastelGray">#cccccc</color>
+    <color name="CelestialBlue">#38a4dd</color>
+    <color name="ModerateLimeGreen">#5cbc6b</color>
+    <color name="White">#ffffff</color>
+    <color name="LightGrayishBlue">#E9EAED</color>
+    <color name="OuterSpace1">#444544</color>
+    <color name="OuterSpace">#4a4a4a</color>
+    <color name="Manatee1">#979797</color>
+    <color name="Manatee2">#999999</color>
+    <color name="Snow">#fafafa</color>
+    <color name="WhiteSmoke1">#f6f6f6</color>
+    <color name="DarkerGray">#aaaaaa</color>
+    <color name="OxfordBlue1">#0b2d3f</color>
+    <color name="HarvardCrimson">#d0021b</color>
+    <color name="CelestialBlue1">#38a3dd</color>
+    <color name="Red">#ff0000</color>
+    <color name="CyanBlueColor">#132D3E</color>
+    <color name="colorAccent">@android:color/white</color>
+</resources>

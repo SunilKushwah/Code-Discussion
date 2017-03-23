@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools=" http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentTop="true"
+    android:background="@color/Snow"
+    android:clickable="true"
+    android:orientation="vertical">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_layout" />
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <include
+                android:id="@+id/wizard_step_layout"
+                layout="@layout/wizard_step01_active_layout" />
+            <include
+                android:id="@+id/welcome_back"
+                layout="@layout/welcome_back_message_layout" />
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/content_cv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/side_margin_content_card_view"
+                android:layout_marginRight="@dimen/side_margin_content_card_view"
+                android:layout_marginBottom="@dimen/bottom_margin_content_card_view"
+                android:layout_marginTop="@dimen/top_margin_content_card_view"
+                android:background="@color/cardview_light_background">
+
+                <LinearLayout
+                    android:id="@+id/cardView_main_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/content_card_view_title_iv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/height_onboarding_icon"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="@dimen/bottom_margin_onboarding_icon"
+                        android:layout_marginTop="@dimen/top_margin_onboarding_icon"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/onboarding_icon_create_account" />
+
+                    <TextView
+                        android:id="@+id/content_card_view_title_tv"
+                        fontPath="HVD Fonts - BrandonText-Light.otf"             
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:includeFontPadding="false"
+                        android:lineSpacingExtra="0dp"
+                        android:layout_marginBottom="@dimen/bottom_margin_title_text"
+                        android:layout_marginLeft="@dimen/side_margin_common_for_inner_card_view"
+                        android:layout_marginRight="@dimen/side_margin_common_for_inner_card_view"
+                        android:gravity="center_horizontal"
+                        android:text="Create Your Account 320"
+                        android:textColor="@color/OxfordBlue1"
+                        android:textSize="@dimen/font_size_medium_30sp" />
+
+                    <TextView
+                        android:id="@+id/descriptive_tv"
+                        fontPath="HVD Fonts - BrandonText-Light.otf"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/bottom_margin_description_text"
+                        android:layout_marginLeft="@dimen/side_margin_common_for_inner_card_view"
+                        android:layout_marginRight="@dimen/side_margin_common_for_inner_card_view"
+                        android:text="We use your email and mobile number to send confirmations."
+                        android:textColor="@color/DavyGray"
+                        android:textSize="@dimen/font_size_medium_18sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/height_row_divider"
+                        android:background="@color/Manatee1" />
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TableRow>
+
+                            <TextView
+                                android:id="@+id/first_name_tv"
+                                fontPath="HVD Fonts - BrandonText-Light.otf"
+                                android:layout_width="wrap_content"
+                                android:layout_height="@dimen/height_input_row"
+                                android:layout_column="1"
+                                android:layout_marginLeft="@dimen/side_margin_common_for_inner_card_view"
+                                android:gravity="center_vertical"
+                                android:text="First Name"
+                                android:textColor="@color/Black"
+                                android:textSize="@dimen/font_size_medium_18sp" />
+
+                            <ImageView
+                                android:id="@+id/first_name_person_inactive_iv"
+                                android:layout_width="@dimen/height_input_icon"
+                                android:layout_height="@dimen/width_input_icon"
+                                android:layout_column="2"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginLeft="@dimen/left_margin_input_icon"
+                                android:layout_marginRight="@dimen/right_margin_input_icon"
+                                android:src="@drawable/input_icon_first_name" />
+
+                            <EditText
+                                android:id="@+id/first_name_et"
+                                fontPath="HVD Fonts - BrandonText-Light.otf"
+                                android:layout_width="0dp"
+                                android:layout_height="@dimen/height_input_row"
+                                android:layout_column="3"
+                                android:layout_marginRight="@dimen/side_margin_common_for_inner_card_view"
+                                android:layout_weight="1"
+                                android:background="@android:color/transparent"
+                                android:gravity="center_vertical"
+                                android:hint="Enter Legal First Name"
+                                android:imeOptions="actionNext"
+                                android:inputType="textCapWords"
+                                android:textColor="@color/DavyGray"
+                                android:textColorHint="@color/PastelGray"
+                                android:textSize="@dimen/font_size_medium_18sp" />
+                        </TableRow>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/height_row_divider"
+                            android:background="@color/Manatee1" />
+
+                        <TableRow>
+
+                            <TextView
+                                android:id="@+id/last_name_tv"
+                                fontPath="HVD Fonts - BrandonText-Light.otf"
+                                android:layout_width="wrap_content"
+                                android:layout_height="@dimen/height_input_row"
+                                android:layout_column="1"
+                                android:layout_marginLeft="@dimen/side_margin_common_for_inner_card_view"
+                                android:gravity="center_vertical"
+                                android:text="Last Name"
+                                android:textColor="@color/Black"
+                                android:textSize="@dimen/font_size_medium_18sp" />
+
+                            <ImageView
+                                android:id="@+id/last_name_person_inactive_iv"
+                                android:layout_width="@dimen/height_input_icon"
+                                android:layout_height="@dimen/width_input_icon"
+                                android:layout_column="2"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginLeft="@dimen/left_margin_input_icon"
+                                android:layout_marginRight="@dimen/right_margin_input_icon"
+                                android:src="@drawable/input_icon_last_name" />
+
+                            <EditText
+                                android:id="@+id/last_name_et"
+                                fontPath="HVD Fonts - BrandonText-Light.otf"
+                                android:layout_width="0dp"
+                                android:layout_height="@dimen/height_input_row"
+                                android:layout_column="3"
+                                android:layout_marginRight="@dimen/side_margin_common_for_inner_card_view"
+                                android:layout_weight="1"
+                                android:background="@android:color/transparent"
+                                android:gravity="center_vertical"
+                                android:hint="Enter Legal Last Name"
+                                android:imeOptions="actionNext"
+                                android:inputType="textCapWords"
+                                android:textColor="@color/DavyGray"
+                                android:textColorHint="@color/PastelGray"
+                                android:textSize="@dimen/font_size_medium_18sp" />
+                        </TableRow>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/height_row_divider"
+                            android:background="@color/Manatee1" />
+
+                        <TableRow>
+
+                            <TextView
+                                android:id="@+id/email_tv"
+                                fontPath="HVD Fonts - BrandonText-Light.otf"
+                                android:layout_width="wrap_content"
+                                android:layout_height="@dimen/height_input_row"
+                                android:layout_column="1"
+                                android:layout_marginLeft="@dimen/side_margin_common_for_inner_card_view"
+                                android:gravity="center_vertical"
+                                android:text="Email"
+                                android:textColor="@color/Black"
+                                android:textSize="@dimen/font_size_medium_18sp" />
+
+                            <ImageView
+                                android:id="@+id/email_iv"
+                                android:layout_width="@dimen/height_input_icon"
+                                android:layout_height="@dimen/width_input_icon"
+                                android:layout_column="2"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginLeft="@dimen/left_margin_input_icon"
+                                android:layout_marginRight="@dimen/right_margin_input_icon"
+                                android:src="@drawable/input_icon_email" />
+
+                            <EditText
+                                android:id="@+id/email_et"
+                                fontPath="HVD Fonts - BrandonText-Light.otf"
+                                android:layout_width="0dp"
+                                android:layout_height="@dimen/height_input_row"
+                                android:layout_column="3"
+                                android:layout_marginRight="@dimen/side_margin_common_for_inner_card_view"
+                                android:layout_weight="1"
+                                android:background="@android:color/transparent"
+                                android:gravity="center_vertical"
+                                android:hint="Enter Email Address"
+                                android:imeOptions="actionNext"
+                                android:inputType="textCapWords"
+                                android:textColor="@color/DavyGray"
+                                android:textColorHint="@color/PastelGray"
+                                android:textSize="@dimen/font_size_medium_18sp" />
+                        </TableRow>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/height_row_divider"
+                            android:background="@color/Manatee1" />
+
+                        <TableRow>
+
+                            <TextView
+                                android:id="@+id/mobile_tv"
+                                fontPath="HVD Fonts - BrandonText-Light.otf"
+                                android:layout_width="wrap_content"
+                                android:layout_height="@dimen/height_input_row"
+                                android:layout_column="1"
+                                android:layout_marginLeft="@dimen/side_margin_common_for_inner_card_view"
+                                android:gravity="center_vertical"
+                                android:text="Mobile"
+                                android:textColor="@color/Black"
+                                android:textSize="@dimen/font_size_medium_18sp" />
+
+                            <ImageView
+                                android:id="@+id/mobile_iv"
+                                android:layout_width="@dimen/height_input_icon"
+                                android:layout_height="@dimen/width_input_icon"
+                                android:layout_column="2"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginLeft="@dimen/left_margin_input_icon"
+                                android:layout_marginRight="@dimen/right_margin_input_icon"
+                                android:src="@drawable/input_icon_mobile" />
+
+                            <EditText
+                                android:id="@+id/mobile_et"
+                                fontPath="HVD Fonts - BrandonText-Light.otf"
+                                android:layout_width="0dp"
+                                android:layout_height="@dimen/height_input_row"
+                                android:layout_column="3"
+                                android:layout_marginRight="@dimen/side_margin_common_for_inner_card_view"
+                                android:layout_weight="1"
+                                android:background="@android:color/transparent"
+                                android:gravity="center_vertical"
+                                android:hint="Enter Mobile Number"
+                                android:imeOptions="actionNext"
+                                android:inputType="textCapWords"
+                                android:textColor="@color/DavyGray"
+                                android:textColorHint="@color/PastelGray"
+                                android:textSize="@dimen/font_size_medium_18sp" />
+                        </TableRow>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/height_row_divider"
+                            android:background="@color/Manatee1" />
+                    </TableLayout>
+
+                    <TextView
+                        android:id="@+id/declaration_tv"
+                        fontPath="HVD Fonts - BrandonText-Light.otf"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/side_margin_common_for_inner_card_view"
+                        android:layout_marginRight="@dimen/side_margin_common_for_inner_card_view"
+                        android:layout_marginTop="@dimen/top_margin_declaration_text"
+                        android:text="We use your email and mobile number to send confirmations."
+                        android:textColor="@color/DavyGray"
+                        android:textSize="@dimen/font_size_medium_18sp" />
+
+                    <Button
+                        android:id="@+id/submit_btn"
+                        fontPath="HVD Fonts - BrandonText-Light.otf"
+                        android:layout_width="@dimen/width_submit_button"
+                        android:layout_height="@dimen/height_submit_button"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/top_margin_submit_button"
+                        android:layout_marginBottom="@dimen/bottom_margin_submit_button"
+                        android:background="@color/DarkerGray"
+                        android:text="Submit >"
+                        android:textAllCaps="false"
+                        android:textColor="@color/White"
+                        android:textSize="@dimen/font_size_medium_18sp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
